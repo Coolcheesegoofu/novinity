@@ -2,18 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/novinity/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#F7F6F2" />
-    <meta name="description" content="Novinity creates original, beautifully typeset novels written around the stories you love." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Novinity — Novels written for an audience of one</title>
-    <script type="module" crossorigin src="/novinity/assets/index-D3WqX7aA.js"></script>
-    <link rel="modulepreload" crossorigin href="/novinity/assets/react-88d85Icc.js">
-    <link rel="modulepreload" crossorigin href="/novinity/assets/motion-B0FQilCE.js">
-    <link rel="modulepreload" crossorigin href="/novinity/assets/webgl-Dj2a9FyN.js">
-    <link rel="stylesheet" crossorigin href="/novinity/assets/index-CmSPj59v.css">
+    <!-- metric-matched fallback @font-face rules are generated here at build/dev time (vite.config.ts) -->
+    <style data-font-fallbacks>@font-face { font-family: "Newsreader Variable fallback"; src: local("Noto Serif"), local("NotoSerif"); size-adjust: 85.0312%; ascent-override: 86.4389%; descent-override: 31.165%; line-gap-override: 0%; } @font-face { font-family: "Newsreader Variable fallback"; src: local("Noto Serif Italic"), local("NotoSerif-Italic"); size-adjust: 78.8981%; ascent-override: 93.1581%; descent-override: 33.5876%; line-gap-override: 0%; font-style: italic; } @font-face { font-family: "Newsreader Variable fallback"; src: local("Georgia"); size-adjust: 91.745%; ascent-override: 80.1133%; descent-override: 28.8844%; line-gap-override: 0%; } @font-face { font-family: "Newsreader Variable fallback"; src: local("Georgia Bold"), local("Georgia-Bold"); size-adjust: 91.745%; ascent-override: 80.1133%; descent-override: 28.8844%; line-gap-override: 0%; font-weight: 600 1000; } @font-face { font-family: "Newsreader Variable fallback"; src: local("Georgia Italic"), local("Georgia-Italic"); size-adjust: 85.1277%; ascent-override: 86.3409%; descent-override: 31.1297%; line-gap-override: 0%; font-style: italic; } @font-face { font-family: "Literata Variable fallback"; src: local("Noto Serif"), local("NotoSerif"); size-adjust: 100%; ascent-override: 117.7%; descent-override: 30.8%; line-gap-override: 0%; } @font-face { font-family: "Literata Variable fallback"; src: local("Noto Serif Italic"), local("NotoSerif-Italic"); size-adjust: 94.1788%; ascent-override: 124.9751%; descent-override: 32.7038%; line-gap-override: 0%; font-style: italic; } @font-face { font-family: "Literata Variable fallback"; src: local("Georgia"); size-adjust: 107.8957%; ascent-override: 109.0868%; descent-override: 28.5461%; line-gap-override: 0%; } @font-face { font-family: "Literata Variable fallback"; src: local("Georgia Bold"), local("Georgia-Bold"); size-adjust: 107.8957%; ascent-override: 109.0868%; descent-override: 28.5461%; line-gap-override: 0%; font-weight: 600 1000; } @font-face { font-family: "Literata Variable fallback"; src: local("Georgia Italic"), local("Georgia-Italic"); size-adjust: 101.6149%; ascent-override: 115.8295%; descent-override: 30.3105%; line-gap-override: 0%; font-style: italic; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Roboto"), local("Roboto-Regular"); size-adjust: 104.7201%; ascent-override: 93.2546%; descent-override: 24.6192%; line-gap-override: 0%; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Roboto Bold"), local("Roboto-Bold"); size-adjust: 104.7201%; ascent-override: 93.2546%; descent-override: 24.6192%; line-gap-override: 0%; font-weight: 600 1000; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Roboto Italic"), local("Roboto-Italic"); size-adjust: 104.7201%; ascent-override: 93.2546%; descent-override: 24.6192%; line-gap-override: 0%; font-style: italic; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Arial"), local("ArialMT"); size-adjust: 104.4907%; ascent-override: 93.4593%; descent-override: 24.6733%; line-gap-override: 0%; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Arial Bold"), local("Arial-BoldMT"); size-adjust: 104.4907%; ascent-override: 93.4593%; descent-override: 24.6733%; line-gap-override: 0%; font-weight: 600 1000; } @font-face { font-family: "Schibsted Grotesk Variable fallback"; src: local("Arial Italic"), local("Arial-ItalicMT"); size-adjust: 104.4907%; ascent-override: 93.4593%; descent-override: 24.6733%; line-gap-override: 0%; font-style: italic; }</style>
+    <meta name="description" content="Tell us the novel you’ve always wanted to read. Novinity writes it, typesets it and designs its cover — one original book, made for you alone." />
+    <!-- default browser chrome colour; the nav's tone controller updates it as night sections pass -->
+    <meta name="theme-color" content="#F7F6F2" />
+
+    <link rel="icon" type="image/svg+xml" href="/novinity/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/novinity/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/novinity/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/novinity/apple-touch-icon.png" />
+    <link rel="manifest" href="/novinity/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Novinity" />
+    <meta property="og:title" content="Novinity — Novels written for an audience of one" />
+    <meta property="og:description" content="Tell us the novel you’ve always wanted to read. We write it, typeset it and design its cover — one original book, made for you alone." />
+    <meta property="og:url" content="https://coolcheesegoofu.github.io/novinity/" />
+    <meta property="og:image" content="https://coolcheesegoofu.github.io/novinity/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A Novinity novel, drawn as a cloth-bound book, beside the Novinity wordmark on midnight blue." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Novinity — Novels written for an audience of one" />
+    <meta name="twitter:description" content="Tell us the novel you’ve always wanted to read. We write it, typeset it and design its cover — one original book, made for you alone." />
+    <meta name="twitter:image" content="https://coolcheesegoofu.github.io/novinity/og-image.jpg" />
+
+    <style>
+      /* paint paper, not white, before the stylesheet and app arrive */
+      html { background: #f7f6f2; color: #1c1c1e; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+      body { margin: 0; }
+      /* shared-element page transitions (cover → book page) */
+      ::view-transition-group(*) { animation-duration: 520ms; animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+      @media (prefers-reduced-motion: reduce) {
+        ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+      }
+    </style>
+    <script type="module" crossorigin src="/novinity/assets/index-Bz3DMcnB.js"></script>
+    <link rel="modulepreload" crossorigin href="/novinity/assets/react-B625Fb5e.js">
+    <link rel="modulepreload" crossorigin href="/novinity/assets/motion-CTYj5kve.js">
+    <link rel="stylesheet" crossorigin href="/novinity/assets/index-BMQS6Kh2.css">
+    <link rel="preload" as="font" type="font/woff2" href="/novinity/assets/newsreader-latin-opsz-normal-s-izfB6B.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/novinity/assets/schibsted-grotesk-latin-wght-normal-Bb8VGrTG.woff2" crossorigin>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <noscript>
+      <p style="font: 18px/1.5 Georgia, serif; max-width: 34em; margin: 20vh auto; padding: 0 24px">
+        <strong>Novinity</strong> — Novels written for an audience of one. This demo needs JavaScript to run.
+      </p>
+    </noscript>
   </body>
 </html>
