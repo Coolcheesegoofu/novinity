@@ -1,7 +1,7 @@
 {
-  "name": "Novinity — Novels written for an audience of one",
+  "name": "Novinity · Novels written for you",
   "short_name": "Novinity",
-  "description": "Tell us the novel you’ve always wanted to read. We write it, typeset it and design its cover — one original book, made for you alone.",
+  "description": "Describe the novel you want to read. Novinity writes it, sets it and designs its cover.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
