@@ -1,0 +1,1 @@
+function o(n){if(n>=8&&n<12){const t=n-8;return{length:(t&1)!==0,voice:(t&2)!==0}}return{length:n>=2,voice:n>=3}}function c(n){return 8+(n.length?1:0)+(n.voice?2:0)}c({length:!0,voice:!0});function i(n,t){const E=o(n),e=[];return t.genres.length||e.push("genre"),E.length||e.push("length"),e}export{i as m,o as p,c as s};
