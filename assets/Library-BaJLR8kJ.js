@@ -1,4 +1,4 @@
-import{r as g,j as l,g as J,L as Z}from"./react-B8WvyCSS.js";import{S as ee}from"./catalog-Ctomg3Da.js";import{u as te,C as O,G as oe}from"./index-CkaDOkjW.js";import{C as ae}from"./Cover-D69ErVCy.js";import"./motion-9R5hWzyv.js";const w=16,ne=.85,se=1800,re=41,ie=`
+import{r as g,j as l,g as J,L as Z}from"./react-B8WvyCSS.js";import{S as ee}from"./catalog-COuAc3LT.js";import{u as te,C as O,G as oe}from"./index-EKvk7szK.js";import{C as ae}from"./Cover-D69ErVCy.js";import"./motion-9R5hWzyv.js";const w=16,ne=.85,se=1800,re=41,ie=`
 attribute vec2 a_position;
 void main() { gl_Position = vec4(a_position, 0.0, 1.0); }`,le=`
 precision highp float;
