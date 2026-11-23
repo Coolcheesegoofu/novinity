@@ -1,1 +1,0 @@
-import{j as p}from"./react-CFoN1oJp.js";function c({value:r,min:e=0,max:t,step:a=1,label:l,valueText:s,onChange:i,className:n=""}){const o=t>e?(r-e)/(t-e):0;return p.jsx("input",{type:"range",className:`nv-slider ${n}`,min:e,max:t,step:a,value:r,"aria-label":l,"aria-valuetext":s,style:{"--fill":o},onChange:u=>i(Number(u.target.value))})}export{c as S};
