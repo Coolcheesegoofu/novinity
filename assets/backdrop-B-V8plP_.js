@@ -1,0 +1,1 @@
+import{j as a}from"./react-BVpGCUBz.js";function e(){return a.jsxs("div",{className:"lb-bg","aria-hidden":"true",children:[a.jsx("span",{className:"lb-paper-tooth"}),a.jsx("span",{className:"lb-paper-fibre"}),a.jsx("span",{className:"lb-paper-grain"}),a.jsx("span",{className:"lb-paper-light"})]})}export{e as B};
